@@ -19,7 +19,7 @@ You can use OpenCV for this on images.
 # What do we have here?
 
 - We have many done fragmentation on the slides/frames of short videoes. This is creating 60 frames within 12 seconds (5 frames/sec)
-- Applying the custom algorithm to detect the edges of foreground object. 
+- Applying the custom [BLOBBING DETECTION](https://en.wikipedia.org/wiki/Blob_detection) algorithm to detect the edges of foreground object. 
 - It will detect the difference between frame's 9x9 pixels.
 - Compute it until a single frame is either a foreground or a background.
 (This is GPU extensive process.)
